@@ -3,7 +3,17 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("test test");
-        System.out.println("test111");
+        Human Vasiliy = new Human("Vasya");
+        Human Vasilisa = new Human("Vasya");
+
+        String somename = "John";
+
+        if(Vasiliy.equals(Vasilisa)){
+            System.out.println("Yeah");
+        }
+
+
+
+
     }
 }
