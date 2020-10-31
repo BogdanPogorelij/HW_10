@@ -3,16 +3,16 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Human Vasiliy = new Human("Vasya");
-        Human Vasilisa = new Human("Vasya");
+        Human Vasiliy = new Human("Vasya",22);
+        Human Vasilisa = new Human("Vasya",21);
 
-        String somename = "John";
-
-        if(Vasiliy.equals(Vasilisa)){
+        if (Vasiliy.equals(Vasilisa)) {
             System.out.println("Yeah");
+
         }
 
-
+        Vasilisa.toString();
+        Vasiliy.toString();
 
 
     }
